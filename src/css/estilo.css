@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* header */
+header{
+    height: 250px;
+    width: 100%vw;
+    background-color: black;
+    font-style: normal;
+    font-weight: bolder;
+    color: #f0f8ff;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Passion One', Times, serif;
+    line-height: 200px;
+    font-size: 91px;
+    margin-bottom: -50px;
+}
+
+header > p#autor-link{
+    padding-bottom: 50px;
+    text-align: center;
+    font: normal normal 1em Arial,Helvetica,serif;
+}
+
+
+
+/*----------------------------*/
+
+/* links */
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*-----------------------*/
+
+/*versos em geral*/
+p.versos{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 44px;
+    font-family: 'Sriracha',serif;
+    width: 577px;
+    line-height: 90px;
+}
+/*--------------------*/
+
+/* versos com fundo */
+
+section#fundo1{
+    position: relative;
+    height: 800px;
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#fundo2{
+    position: relative;
+    height: 800px;
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section > p.texto-com-fundo{
+    width: 600px;
+    position: 
+    absolute;
+    margin-top: 25px;
+    padding: 20px;
+    color: white;
+    font-size: 46px;
+    background-color: #00000091;
+}
+
+/*--------------------------*/
+
+
+/* footer */
+footer{
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+
+footer > p{
+    font-family: 'Sriracha',serif;
+    padding: 10px;
+}
+
+/*---------------*/
